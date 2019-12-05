@@ -9,13 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".Emergency_Contacts"></activity>
+        <activity android:name=".Emergency" />
+        <activity android:name=".Settings_DirectionFrequency" />
+        <activity android:name=".Settings_SavedMaps" />
+        <activity android:name=".Settings_Volume" android:exported="true"/>
+        <activity android:name=".MapGallery" />
+        <activity android:name=".Directions" />
+        <activity android:name=".Destination" />
+        <activity android:name=".MainMenu">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>

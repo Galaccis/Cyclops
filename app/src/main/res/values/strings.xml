@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Cyclops</string>
+    <string name="cyclops">Welcome to Cyclops</string>
+    <string name="start_destination">Start</string>
+    <string name="end_destination">End</string>
+    <string name="nav">Start Navigation</string>
+    <string name = "Title">         Cyclops</string>
 </resources>
